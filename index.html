@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Lakshmi Misra — Principal Program Manager & Director at Microsoft. Program development, innovation, leadership, and strategic partnerships." />
   <meta name="author" content="Lakshmi Misra" />
-  <meta name="theme-color" content="#0b2a4a" />
+  <meta name="theme-color" content="#201c50" />
   <title>Lakshmi Misra — Principal Program Manager & Director</title>
 
   <!-- Open Graph -->
@@ -14,24 +14,26 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="DP_pic1.png" />
 
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23201c50'/%3E%3Ctext x='50%25' y='54%25' font-family='Georgia,serif' font-size='30' font-weight='700' fill='%237c6cff' text-anchor='middle' dominant-baseline='middle'%3ELM%3C/text%3E%3C/svg%3E" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <style>
     :root {
-      --navy: #0b2a4a;
-      --navy-2: #103a63;
-      --teal: #14b8a6;
-      --teal-dark: #0f9488;
-      --ink: #1c2733;
-      --muted: #5a6b7b;
-      --line: #e4e9ef;
+      --navy: #201c50;
+      --navy-2: #2c2769;
+      --teal: #7c6cff;
+      --teal-dark: #5b4fd6;
+      --ink: #23283a;
+      --muted: #5b6577;
+      --line: #e8e7f3;
       --bg: #ffffff;
-      --bg-soft: #f5f8fb;
+      --bg-soft: #f6f5fc;
       --card: #ffffff;
-      --shadow: 0 10px 30px rgba(11, 42, 74, 0.08);
-      --shadow-sm: 0 4px 14px rgba(11, 42, 74, 0.06);
+      --shadow: 0 10px 30px rgba(32, 28, 80, 0.10);
+      --shadow-sm: 0 4px 14px rgba(32, 28, 80, 0.07);
       --radius: 16px;
       --maxw: 1080px;
     }
@@ -89,14 +91,14 @@
     .hero::before {
       content: ""; position: absolute; inset: 0;
       background:
-        radial-gradient(900px 420px at 78% -10%, rgba(20,184,166,0.12), transparent 60%),
-        radial-gradient(700px 400px at 10% 110%, rgba(16,58,99,0.10), transparent 60%);
+        radial-gradient(900px 420px at 78% -10%, rgba(124,108,255,0.16), transparent 60%),
+        radial-gradient(700px 400px at 10% 110%, rgba(32,28,80,0.10), transparent 60%);
       z-index: -1;
     }
     .hero-grid { display: grid; grid-template-columns: 1.4fr 0.85fr; gap: 48px; align-items: center; }
     .eyebrow {
       display: inline-block; font-size: 0.78rem; font-weight: 600; letter-spacing: 1.5px;
-      text-transform: uppercase; color: var(--teal-dark); background: rgba(20,184,166,0.10);
+      text-transform: uppercase; color: var(--teal-dark); background: rgba(124,108,255,0.12);
       padding: 6px 14px; border-radius: 999px; margin-bottom: 18px;
     }
     .hero h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); color: var(--navy); margin-bottom: 8px; }
@@ -109,7 +111,7 @@
       border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, box-shadow .15s ease;
     }
     .btn:hover { text-decoration: none; transform: translateY(-2px); }
-    .btn-primary { background: var(--teal-dark); color: #fff; box-shadow: 0 8px 20px rgba(15,148,136,0.28); }
+    .btn-primary { background: var(--teal-dark); color: #fff; box-shadow: 0 8px 20px rgba(91,79,214,0.32); }
     .btn-primary:hover { background: var(--teal); }
     .btn-ghost { background: #fff; color: var(--navy); border-color: var(--line); box-shadow: var(--shadow-sm); }
     .btn svg { width: 17px; height: 17px; }
@@ -164,7 +166,7 @@
     .tl-item::before {
       content: ""; position: absolute; left: 2px; top: 6px; width: 16px; height: 16px;
       border-radius: 50%; background: #fff; border: 3px solid var(--teal-dark);
-      box-shadow: 0 0 0 4px rgba(20,184,166,0.12);
+      box-shadow: 0 0 0 4px rgba(124,108,255,0.15);
     }
     .tl-card {
       background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -174,7 +176,7 @@
     .tl-org { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.2rem; color: var(--navy); }
     .tl-date {
       font-size: 0.78rem; font-weight: 600; color: var(--teal-dark);
-      background: rgba(20,184,166,0.10); padding: 4px 12px; border-radius: 999px; white-space: nowrap;
+      background: rgba(124,108,255,0.12); padding: 4px 12px; border-radius: 999px; white-space: nowrap;
     }
     .tl-roles { margin: 12px 0 4px; padding: 0; list-style: none; }
     .tl-roles li { font-size: 0.9rem; color: var(--ink); font-weight: 600; padding: 3px 0; }
@@ -197,7 +199,7 @@
     .skill-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
     .skill-ic {
       width: 46px; height: 46px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
-      background: linear-gradient(135deg, rgba(20,184,166,0.16), rgba(16,58,99,0.12)); color: var(--navy); margin-bottom: 14px;
+      background: linear-gradient(135deg, rgba(124,108,255,0.20), rgba(32,28,80,0.12)); color: var(--navy); margin-bottom: 14px;
     }
     .skill-ic svg { width: 24px; height: 24px; }
     .skill-card h4 { color: var(--navy); font-size: 1.08rem; margin-bottom: 12px; }
@@ -221,7 +223,7 @@
     .event .ev-body span { font-size: 0.86rem; color: var(--muted); }
     .role-pill {
       display: inline-block; margin-top: 6px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
-      letter-spacing: 0.6px; color: var(--navy); background: rgba(20,184,166,0.12); padding: 2px 10px; border-radius: 999px;
+      letter-spacing: 0.6px; color: var(--navy); background: rgba(124,108,255,0.14); padding: 2px 10px; border-radius: 999px;
     }
 
     /* ---------- EDUCATION ---------- */
@@ -263,9 +265,9 @@
 
     /* ---------- CONTACT ---------- */
     #contact { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 100%); color: #eaf1f8; }
-    #contact .sec-kicker { color: #7fe3d6; }
+    #contact .sec-kicker { color: #c9c0ff; }
     #contact .sec-head h2 { color: #fff; }
-    #contact .sec-head p { color: #b9cbdd; }
+    #contact .sec-head p { color: #c3c1e0; }
     .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 6px; }
     .contact-card {
       display: flex; align-items: center; gap: 16px; background: rgba(255,255,255,0.06);
@@ -274,16 +276,16 @@
     }
     .contact-card:hover { background: rgba(255,255,255,0.12); transform: translateY(-3px); text-decoration: none; }
     .contact-card .cc-ic {
-      width: 46px; height: 46px; flex: none; border-radius: 12px; background: rgba(20,184,166,0.25);
-      display: flex; align-items: center; justify-content: center; color: #7fe3d6;
+      width: 46px; height: 46px; flex: none; border-radius: 12px; background: rgba(124,108,255,0.28);
+      display: flex; align-items: center; justify-content: center; color: #c9c0ff;
     }
     .contact-card .cc-ic svg { width: 22px; height: 22px; }
-    .contact-card .cc-label { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 1px; color: #9fb6cc; }
+    .contact-card .cc-label { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 1px; color: #a6a3c8; }
     .contact-card .cc-val { font-weight: 600; font-size: 0.98rem; word-break: break-word; }
 
     /* ---------- FOOTER ---------- */
-    footer.foot { background: #071c31; color: #8ba3ba; text-align: center; padding: 26px 0; font-size: 0.85rem; }
-    footer.foot a { color: #7fe3d6; }
+    footer.foot { background: #14122e; color: #9a97b8; text-align: center; padding: 26px 0; font-size: 0.85rem; }
+    footer.foot a { color: #c9c0ff; }
 
     /* ---------- RESPONSIVE ---------- */
     @media (max-width: 900px) {
@@ -362,6 +364,10 @@
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21H9z"/></svg>
             LinkedIn
           </a>
+          <a class="btn btn-ghost" href="CV_LakshmiMisra_Mar2026.pdf" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download CV
+          </a>
         </div>
         <div class="stats">
           <div class="stat"><b>13+</b><span>Years of experience</span></div>
@@ -389,7 +395,7 @@
       </div>
       <div class="about-grid">
         <div>
-          <p>I am a program leader with <strong> Fifteen years of experience</strong> spanning startups, academia, and governments. My work sits at the intersection of <strong>program development and management, leadership and people management, strategic collaborations, and partnership development.</strong></p>
+          <p>I am a program leader with <strong>thirteen years of experience</strong> spanning startups, academia, and governments. My work sits at the intersection of <strong>program development and management, leadership and people management, strategic collaborations, and partnership development.</strong></p>
           <p>At <strong>Microsoft's The Garage</strong>, I lead innovation programs across India — from the Global Hackathon and SkillUp AI series to internal accelerators and internship programs — championing a growth mindset among students, new recruits, and senior leaders alike.</p>
           <p>Before Microsoft, I designed national programs for underrepresented communities with the <strong>British Deputy High Commission</strong>, drove industry outreach and startup incubation at <strong>IIIT Hyderabad</strong>, and led product innovation at <strong>Titan Industries</strong>. I care deeply about creating opportunities, nurturing talent, and delivering measurable impact for industry, government, and society.</p>
         </div>
@@ -738,7 +744,7 @@
         <div class="edu-card">
           <div class="deg">M.B.A.</div>
           <div class="inst">Indian Institute of Management, Lucknow</div>
-          <div class="meta">Apr 2023 – 2025</div>
+          <div class="meta">Apr 2023 – Ongoing</div>
         </div>
         <div class="edu-card">
           <div class="deg">M.A. Sociology</div>
